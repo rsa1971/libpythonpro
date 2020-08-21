@@ -2,7 +2,7 @@ language: python
 python:
   - 3.8.3
 install:
-  - pip install -r requeriments-devs.txt
+  - pip install -q -r requeriments-devs.txt
 script:
   - flake8
   -
