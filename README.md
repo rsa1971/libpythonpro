@@ -26,3 +26,4 @@ Tópicos a serem abordados:
 1. Git
 2. Virtualen
 3. PIP.
+
