@@ -27,7 +27,5 @@ Tópicos a serem abordados:
 2. Virtualen
 3. PIP.
 
-
-
 ‎
  
