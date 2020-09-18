@@ -9,4 +9,3 @@ script:
 
 after_sucess:
   - codecov
-  -
