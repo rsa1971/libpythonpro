@@ -1,4 +1,8 @@
+<<<<<<< HEAD:requirements-devs.txt
 -r requirements.txt
+=======
+pip install -r requeriments.txt
+>>>>>>> 1c6d607... Acrescentada cobertura de código.:requeriments-devs.txt
 
 flake8==3.8.3
 mccabe==0.6.1
