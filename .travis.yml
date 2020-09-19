@@ -2,7 +2,7 @@ language: python
 python:
   - 3.8.3
 install:
-  - pip install -q -r requeriments-devs.txt codecov
+  - pip install -q -r requirements-devs.txt codecov
 script:
   - flake8
   - pytest libpythonpro --cov=libpythonpro
