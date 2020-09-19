@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from libpythonpro.spam.enviador_de_email import Enviador, EmailInvalido
 import pytest
 
@@ -36,20 +35,3 @@ def test_remetente_invalido(remetente):
             'Cursos Python Pro',
             'Primeira turma Guido Von Rossum aberta.'
         )
-=======
-from libpythonpro.tests.spam.enviador_de_email import Enviador
-
-
-def test_criar_enviador_de_email():
-    enviador= Enviador()
-    assert enviador is not None
-def test_remetente():
-    enviador=Enviador():
-    resultado = enviador.enviar(
-        'renzo@pythonpro.br,'
-        'luciano@python.pro.br',
-        'Cursos Python Pro',
-        'Primeira turma Guido Von Rossum aberta.')
-
-    assert  'renzo@python.pro.br' in resultado
->>>>>>> b30cfb9... Corrigi um erro retornado pelo Travis build #24.
