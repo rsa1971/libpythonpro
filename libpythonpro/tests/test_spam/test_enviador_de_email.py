@@ -1,6 +1,7 @@
 from libpythonpro.tests.spam.enviador_de_email import Enviador
 import pytest
 
+
 def test_criar_enviador_de_email():
     enviador = Enviador()
     assert enviador is not None
