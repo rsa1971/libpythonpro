@@ -15,13 +15,11 @@ def test_remetente(remetente):
     enviador = Enviador()
     resultado = enviador.enviar(
         remetente,
-        'renzo@pythonpro.br',
         'luciano@python.pro.br',
         'Cursos Python Pro',
         'Primeira turma Guido Von Rossum aberta.'
     )
     assert remetente in resultado
-
 
 @pytest.mark.parametrize(
     'remetente',
