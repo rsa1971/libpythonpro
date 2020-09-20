@@ -25,6 +25,7 @@ def test_remetente(remetente):
     'remetente',
     ['', 'renzo']
 )
+
 def test_remetente_invalido(remetente):
     enviador = Enviador()
     with pytest.raises(EmailInvalido):
