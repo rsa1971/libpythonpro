@@ -1,18 +1,6 @@
-<<<<<<< HEAD
 certifi==2018.4.16
 chardet==3.0.4
 idna==2.6
-<<<<<<< HEAD
 requests==2.20.0
 urllib3==1.24.2
-=======
-requests==2.18.4
-urllib3==1.22
->>>>>>> 9727b69... Voltei na Aula do requirements e alterei a palavra requeriments por requirements. Alterei, também, a versão do pluggy para 0.13.1.
-=======
-certifi=2018.4.16
-chardet=3.0.4
-idna=2.6
-requests=2.20.0
-urllib3=1.24.2
->>>>>>> 254e912... Após orientação do @serlucas, atualizei as libs requests e urllib3.
+
