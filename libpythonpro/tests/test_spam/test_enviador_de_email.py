@@ -1,6 +1,9 @@
 from libpythonpro.spam.enviador_de_email import Enviador, EmailInvalido
+<<<<<<< HEAD
 
 from libpythonpro.tests.spam.enviador_de_email import Enviador, EmailInvalido
+=======
+>>>>>>> 3be0054... Implementada Implementação de Conexão, Sessão e Usuário.
 import pytest
 
 
