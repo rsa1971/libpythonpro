@@ -1,4 +1,4 @@
-from libpythonpro.tests.spam.enviador_de_email import Enviador, EmailInvalido
+from libpythonpro.spam.enviador_de_email import Enviador, EmailInvalido
 import pytest
 
 
