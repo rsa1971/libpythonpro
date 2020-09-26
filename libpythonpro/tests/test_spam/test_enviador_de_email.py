@@ -7,7 +7,11 @@ def test_criar_enviador_de_email():
     assert enviador is not None
 
 
-def test_remetente():
+@pytest.mark.parametrize(
+    'remetente',
+    ['foo@bar.com.br', 'renzo@python.pro.br']
+)
+def test_remetente(remetente):
     enviador = Enviador()
     resultado = enviador.enviar(
         remetente,
