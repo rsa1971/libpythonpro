@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 import pytest
 
-=======
->>>>>>> 3be0054... Implementada Implementação de Conexão, Sessão e Usuário.
-=======
-import pytest
-
->>>>>>> 24a5077... Implementada Setup e Tear Down com Fixture.
 from libpythonpro.spam.db import Conexao
 from libpythonpro.spam.modelos import Usuario
 
@@ -29,9 +21,7 @@ def sessao(conexao):
     sessao_obj.fechar()
 
 
-def test_salvar_usuario():
-    conexao = Conexao()
-    sessao = conexao.gerar_sessao()
+def test_salvar_usuario(sessao):
     usuario = Usuario(nome='Renzo')
     sessao.salvar(usuario)
     assert isinstance(usuario.id, int)
@@ -42,6 +32,3 @@ def test_listar_usuario(conexao, sessao):
     for usuario in usuarios:
         sessao.salvar(usuario)
     assert usuarios == sessao.listar()
-    sessao.roll_back()
-    sessao.fechar()
-    conexao.fechar()
