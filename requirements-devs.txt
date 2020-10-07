@@ -7,7 +7,7 @@ pycodestyle==2.6.0
 #Deps do pytest
 py==1.8.2
 more-itertools==4.0.0
-atomicwrites==1.0
+atomicwrites==1.4.0
 attrs==17.4.0
 pluggy==0.13.1
 pyparsing==2.0.2
