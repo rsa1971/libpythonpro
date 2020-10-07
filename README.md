@@ -11,7 +11,6 @@ Link do curso [Python Pro] (www.python.pro.br/)
 
 Suportada versão 3 de Python.
 
-
 Para instalar:
 
 '''console
