@@ -98,8 +98,8 @@ def find_package_data(
     return out
 
 
-PACKAGE = "devpro1"
-NAME = PACKAGE
+PACKAGE = "libpythonpro"
+NAME = "devpro1"
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools."
 AUTHOR = "Renato Silva"
 AUTHOR_EMAIL = "prof.renatao@hotmail.com"
@@ -111,7 +111,7 @@ setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=read('README.md'),
+    long_description='TEXTO LONGO',
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
