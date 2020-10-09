@@ -98,8 +98,8 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
-NAME = 'rsa_libpythonpro'
+PACKAGE = "devpro1"
+NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools."
 AUTHOR = "Renato Silva"
 AUTHOR_EMAIL = "prof.renatao@hotmail.com"
