@@ -1,6 +1,6 @@
 -r requirements.txt
 
-flake8==3.8.4
+flake8==6.0.0
 mccabe==0.6.1
 pycodestyle==2.6.0
 
